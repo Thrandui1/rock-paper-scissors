@@ -1,0 +1,84 @@
+* {
+    /* outline: 1px solid red; */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gainsboro;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: linear-gradient(to right, rgba(255, 0, 0, 0.2) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 0, 0, 0.2) 1px, transparent 1px);
+background-size: 20px 20px; */
+}
+
+/* HEADER */
+
+header {
+    justify-content: space-around;
+    display: flex;
+    padding-left: 62px;
+     
+}
+
+.left-container,
+.right-container,
+.central-container {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* MAIN */
+
+.top-container {
+    display: flex;
+    justify-content: center;
+}
+
+.choice-computer {
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* bottom-container */
+
+.bottom-container {
+    display: flex;
+    justify-content: center; 
+    padding: 95px;
+    justify-content: space-around;
+}
+
+.object-rock,
+.object-scissors,
+.object-papper,
+.choice-computer {
+    width: 250px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 15px; 
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.object-rock:hover,
+.object-scissors:hover,
+.object-papper:hover,
+.choice-computer:hover {
+    box-shadow: 0 4px 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+img {
+    width: 85%;
+    height: auto%;
+}
