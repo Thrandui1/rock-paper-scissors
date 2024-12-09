@@ -30,7 +30,7 @@ imgs.forEach(img => img.addEventListener('click', () => {
     document.querySelector(".central-container").textContent = `${roundResult}`;
 
     const compImg = document.querySelector("#comp-choice-img");
-    compImg.setAttribute("src", `/images/${compChoice}.png`);
+    compImg.setAttribute("src", `images/${compChoice}.png`);
 
     document.querySelector(".you-score").textContent = `${humanScore}`;
     document.querySelector(".computer-score").textContent = `${computerScore}`;
